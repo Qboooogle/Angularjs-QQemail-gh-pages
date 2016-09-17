@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myApp'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>qq邮箱</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <header class="fix">
+        <div class="logo">
+            <a href="#">
+                <img src="images/spacer1e9c5d.gif" alt="">
+            </a>
+        </div>
+        <div class="switch">
+            <p>夜
+                <1628299352@qq.com>
+            </p>
+            <span class="xiala"></span>
+            <p>
+                <a href="#/sy">邮箱首页 |</a>
+                <a href="#">设置-</a>
+                <a href="#">换肤</a>
+            </p>
+        </div>
+        <div class="right fix">
+            <ul class="fix">
+                <li>
+                    <a href="#">反馈建议 |</a>
+                </li>
+                <li>
+                    <a href="#">帮助中心 |</a>
+                </li>
+                <li>
+                    <a href="#">退出</a>
+                </li>
+            </ul>
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="搜索邮件···">
+                    <span class="searIcon"></span>
+                    <span class="xiala"></span>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="content fix">
+        <div class="toplineZ"></div>
+        <div class="left">
+            <div class="topline"></div>
+            <div class="slideMenu">
+                <ul>
+                    <li>
+                        <span class="icon icon1"></span>
+                        <a href="#/WL">写信</a>
+                    </li>
+                    <li>
+                        <span class="icon icon2"></span>
+                        <a href="#/SL">收信</a>
+                    </li>
+                    <li>
+                        <span class="icon icon3"></span>
+                        <a href="#/TX">通讯录</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottomMenu">
+                <ul>
+                    <li>
+                        <a href="#" class="on">收件箱(140)</a>
+                    </li>
+                    <li>
+                        <a href="#">星标邮件</a>
+                        <span class="start"></span>
+                    </li>
+                    <li>
+                        <a href="#" class="on">群邮件(99)</a>
+                    </li>
+                    <li>
+                        <a href="#">草稿箱(10)</a>
+                    </li>
+                    <li>
+                        <a href="#">已发送</a>
+                    </li>
+                    <li>
+                        <a href="#" class="on">已删除(30)</a>
+                    </li>
+                    <li>
+                        <a href="#" class="on">垃圾箱(1)</a>
+                    </li>
+                    <li>
+                        <a href="#">QQ邮件订阅</a>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="#">其他邮箱</a>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li>
+                        <a href="#" class="on">漂流瓶(23)</a>
+                        <span class="pin"></span>
+                    </li>
+                    <li>
+                        <a href="#">贺卡 | 明信片</a>
+                    </li>
+                    <li>
+                        <a href="#">日历 | 记事本</a>
+                    </li>
+                    <li>
+                        <a href="#">附件收藏</a>
+                    </li>
+                    <li>
+                        <a href="#">文件中转站</a>
+                    </li>
+                    <li>
+                        <a href="#">简历</a>
+                    </li>
+                    <li>
+                        <a href="#" class="on">阅读空间</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottBar">
+
+            </div>
+        </div>
+        <div class="mainContent fix" >
+            <div ng-view></div>
+        </div>
+    </div>
+
+
+</body>
+    <script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angular-route.min.js"></script>
+    <script type="text/javascript" src="module/app.js"></script>
+</html>
